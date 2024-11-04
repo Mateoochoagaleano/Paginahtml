@@ -1,0 +1,125 @@
+body {
+    background-image: url(/asseets/ty.jpg);   
+   background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+   }
+   
+   .navbar-brand{
+    color: #ffffff;
+}
+
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background: rgba(28, 22, 58, 0.5);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.navbar a {
+    position: relative;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 50px;
+}
+
+.img {
+    width: 100%;
+    height: 100vh;
+}
+
+.navbar-nav {
+    display: flex;
+    width: 1100px;
+    padding-left: 100px;
+}
+
+.container-fluid {
+    background: rgba(28, 22, 58, 0.5);
+    width: 0px;
+    height: 0px;
+}
+
+.form-control {
+    background-color: rgb(0, 0, 0);
+    border-color: rgb(3, 4, 4);
+}
+
+.btn {
+    background-color: rgb(0, 0, 0);
+    border-color: rgba(2, 2, 3, 0.581);
+}
+
+.navbar-nav .nav-link {
+    color: #ffffff;
+}
+
+.navbar-nav .nav-link.active {
+    color: #ffffff;
+}
+
+.form-control::placeholder {
+    color: rgb(255, 255, 255);
+}
+
+.btn-outline-success {
+    color: rgb(253, 255, 255); /* Color del texto del botón */
+    background-color: rgb(7, 8, 8); /* Color de fondo del botón */
+    border-color: rgb(3, 4, 4); /* Color del borde del botón */
+}
+
+.btn-outline-success:hover {
+    color: rgb(11, 117, 150); /* Color del texto del botón al pasar el mouse */
+    background-color: rgba(255, 255, 255, 0.542); /* Color de fondo del botón al pasar el mouse */
+    border-color: rgb(0, 83, 128); /* Color del borde del botón al pasar el mouse */
+}
+   
+   footer {
+       background-color: #0000008b;
+       color: #ffffff;
+       padding: 15px 0;
+       text-align:center;
+   }
+   
+   .accordion-item {
+       padding: 50px;
+       background-color: rgba(0, 0, 0, 0.759); /* Fondo transparente para los elementos del acordeón */
+       border: none; /* Eliminar el borde si es necesario */
+       border-radius: 1px; /* Agregar un borde redondeado */
+       transition: all 0.5s ease; /* Para suavizar el movimiento */
+   
+   
+   
+   }
+   
+   .accordion-collapse{
+       color: #f3f3f3;
+       margin-top: 50px;
+   }
+   
+   .accordion-button:hover {
+       background-color: rgba(255, 255, 255, 0.1); /* Efecto hover opcional */
+       color: rgb(13, 16, 200);
+   }
+   
+   .accordion-button {
+       background-color: rgba(40, 45, 45, 0.681); /* Fondo transparente para el botón */
+       color: #fefeff; /* Cambia el color del texto si es necesario */
+       border: none; /* Eliminar el borde del botón */
+   }
+   
+   .accordion-button.active {
+       background-color: white; /* Fondo blanco cuando el acordeón está seleccionado */
+       color: #000000; /* Cambia el color del texto si es necesario para mejor contraste */
+   }
